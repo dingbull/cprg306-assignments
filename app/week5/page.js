@@ -1,5 +1,7 @@
 // /app/week5/page.js
 
+"use client";
+
 import ItemList from './item-list';
 
 export default function Page() {

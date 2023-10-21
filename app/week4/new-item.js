@@ -9,6 +9,8 @@ function NewItem() {
   const [quantity, setQuantity] = useState(1);
   const [category, setCategory] = useState("produce");
 
+
+
   // Form Submission Handler
   const handleSubmit = (e) => {
     e.preventDefault();
