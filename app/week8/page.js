@@ -10,7 +10,7 @@ export default function Page() {
   const handleSignIn = async () => {
     await gitHubSignIn();
   };
- 
+
   // Your page content goes here, wrapped in a conditional that checks for the user
   return (
     <main>
